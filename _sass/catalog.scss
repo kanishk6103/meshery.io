@@ -1020,6 +1020,17 @@ label {
   background: #00b39f;
 }
 
+@media screen and (max-width: 550px) {
+  .btn-grp{
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    // padding-bottom: 2rem;
+    width: 100%;
+    justify-content: center;
+  }
+}
+
 @media screen and (max-width: 650px) {
   .modal-window {
     width: 100%;
